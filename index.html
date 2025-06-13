@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Application </title>
+    <title>Document</title>
 </head>
-<h1> This is my first html code would u like perfer further codes that i generate </h1>
-<p> shivam randi bsdk </p>
-<!--tu chutiya hai -->
 <body>
+    <form action="/submit.php" method="Post">
+
+        <label for="username"> <big> Username : </big> </label>
+        <input type = "text" id = "email" name="username" placeholder="email">  <br><hr>
+
+        <label for="password">Password :</label>
+        <input type ="password">
+
+        <label for="color">Color : </label>
+        <input type ="color"><br><hr>
+
+        <label for="Date">Date : </label>
+        <input type = "date" ><br><hr>
+
+        <label for="file"> File : </label>
+        <input type = "file"><br><hr>
+
+        <label for="range"> Price Range :</label>
+        <input type = "range" id="range" value="price" min="100" max="10000000"\><br><hr>
+
+       <label for="button">Buttom : </label>
+       <input type = "button" value ="Click"><br><hr>
+      
+        <label for="click">Poke me: </label>
+        <input type = "button" value = "poked"><br><hr>
+
+        <label for="male"> Male :</label>
+        <input type = "radio" id="male" name="gender"
+        value = "male"><br>
+
+        <label for="female">female :</label>
+        <input type = "radio" id="female" name="gender"
+        value = "female"><br>
+
+        <label for="other">other :</label>
+        <input type = "radio" id="other" name="gender"
+        value = "other"><br>
+
+        <label for="randi">Shivam :</label>
+        <input type = "checkbox" id="randi" name="gender"
+        value = "randi"><br><hr>
+
+        <label for="Country">Country : </label>
+        <select name="country" id="country">
+            <option value ="india">India </option>
+            <option value= "UK" >Uk </option>
+            <option value="US"> US </option>       
+        </select><br><hr>
+        
+
+        <textarea name="text" id="text" cols="30" rows="4">
+            likh bkl
+        </textarea><br>
+        
+
+
+        <input type ="Submit">
+      </form>
+
     
 </body>
 </html>
